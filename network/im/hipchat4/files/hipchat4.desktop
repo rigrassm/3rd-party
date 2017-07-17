@@ -1,0 +1,10 @@
+[Desktop Entry]
+Type=Application
+Version=4.29.4.1662
+Name=HipChat4
+GenericName=Group Chat and IM
+Comment=Persistent group chat using XMPP.
+Exec=/usr/bin/hipchat
+Icon=hipchat4
+Terminal=false
+Categories=Network;InstantMessaging;

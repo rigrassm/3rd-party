@@ -1,0 +1,38 @@
+<PISI>
+    <Source>
+        <Name>hipchat4</Name>
+        <Packager>
+            <Name>Ricky Grassmuck</Name>
+            <Email>rigrassm@gmail.com</Email>
+        </Packager>
+        <License>MIT</License>
+        <PartOf>InstantMessaging</PartOf>
+        <Summary xml:lang="en">HipChat4 - Persistent group chat using XMPP</Summary>
+        <Description xml:lang="en">HipChat4 - Persistent group chat using XMPP</Description>
+        <Archive type="targz" sha1sum="1759949fc465a5222d8923efcc7556b3d7a72e78">https://github.com/rigrassm/hipchat4/archive/4.29.4.1662.tar.gz</Archive>
+    </Source>
+    <Package>
+        <Name>hipchat4</Name>
+        <Summary xml:lang="en">HipChat4 - Persistent group chat using XMPP</Summary>
+        <Description xml:lang="en">HipChat4 - Persistent group chat using XMPP </Description>
+        <PartOf>networking</PartOf>
+        <PartOf>InstantMessaging</PartOf>
+        <Files>
+            <Path fileType="data">/opt/hipchat</Path>
+            <Path fileType="data">/usr/bin/hipchat</Path>
+            <Path fileType="data">/usr/share/applications/hipchat4.desktop</Path>
+        </Files>
+        <AdditionalFiles>
+            <AdditionalFile owner="root" permission="0644" target="/usr/share/applications/hipchat4.desktop">hipchat4.desktop</AdditionalFile>
+        </AdditionalFiles>
+    </Package>
+    <History>
+        <Update release="1">
+            <Date>2017-07-17</Date>
+            <Version>4.29.4.1662</Version>
+            <Comment>Initial Working HipChat4</Comment>
+            <Name>Ricky Grassmuck</Name>
+            <Email>rigrassm@gmail.com</Email>
+        </Update>
+    </History>
+</PISI>
