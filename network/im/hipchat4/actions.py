@@ -7,6 +7,6 @@ WorkDir = "."
 
 
 def install():
-    pisitools.insinto("/opt/hipchat", "hipchat/HipChat4/*")
-    pisitools.insinto("/usr/share/icons/hicolor", "hipchat/icons/hicolor/*")
+    pisitools.insinto("/opt/hipchat", "hipchat4-4.29.4.1662/HipChat4/*")
+    pisitools.insinto("/usr/share/icons/hicolor", "hipchat4-4.29.4.1662/icons/hicolor/*")
     pisitools.dosym("/opt/hipchat/bin/HipChat4", "/usr/bin/hipchat")
