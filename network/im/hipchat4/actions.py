@@ -7,7 +7,7 @@ WorkDir = "."
 
 
 def install():
-    icon_sizes = list(
+    icon_sizes = [
             "16x16", 
             "24x24", 
             "32x32", 
@@ -16,7 +16,7 @@ def install():
             "256x256", 
             "512x512",
             "1024x1024",
-            )
+            ]
     pisitools.insinto("/opt/hipchat", "hipchat4-4.29.4.1662/HipChat4/*")
     for i in icon_sizes:
         pisitools.domove(
